@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Groceries</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navigasi">
+        <img class="gambar" src="https://png.pngtree.com/png-clipart/20210328/original/pngtree-the-online-shop-logo-uses-a-single-color-home-theme-png-image_6151619.jpg" alt="logo">
+        <ul class="navigasi_item">
+            <li class="home">Home</li>
+            <li>Our Package</li>
+            <li class="contact">Contact Us</li>
+        </ul>
+    </nav>
+
+    <header class="kepala">
+        <br>
+        <h1>Top Rated E-Groceries Shop In Indonesia</h1>
+        <br>
+        <h5>Every day with the best ingredients</h5>
+    </header>
+
+    <main class="bagan">
+        <div class="gambar-container">
+            <div id="slider">
+                <div id="slides" class="slides">
+                    <div class="slide"><img src="picture/market.jpg" 
+                    alt="gambar-1"></div>
+                    <div class="slide"><img src="picture/gambar_2.jpeg" 
+                    alt="gambar-2"></div>
+                    <div class="slide"><img src="picture/gambar_3.jpeg" 
+                    alt="gambar-3"></div>
+                </div>
+            </div>
+            <p class="p">"Sayurannya sangat lengkap bagus sekali"</p>
+            <div class="costumer">
+                <div class="circle"></div>
+                <div class="queen">
+                    <p class="namacos"><b>Queen</b></p>
+                    <p class="status_queen"><i>Mahasiswa, 19</i></p>
+                </div>
+            </div>
+            <div class="komentar">
+                <p><b>Berikut adalah informasi lebih lanjut
+                    tentang produk yang kami berikan
+                </b></p>
+                <br>
+                <div class="isi_komen">
+                    <div class="komen1">
+                        <div class="circle2"></div>
+                        <p>Toko yang aman dan amanah</p>
+                    </div>
+                    <div class="komen2">
+                        <div class="circle2"></div>
+                        <p>Barangnya sangat berkualitas</p>
+                    </div>
+                    <div class="komen3">
+                        <div class="circle2"></div>
+                        <p>Harganya terjangkau </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="form-container">
+            <form id="myForm">
+                <p class="kontak"><b>Contact Us</b></p>
+                <p>sales akan menghubungi anda 1x24 jam setelah data kami terima</p>
+                <br>
+
+                <label for="nama">Your Name:</label>
+                <input type="text" name="nama" id="nama" placeholder="First and last name" required>
+                <br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" placeholder="example@email.com" required>
+
+                <p class="inter">What are you interested in?</p>
+                <select name="interest" id="interest" aria-placeholder="select option" required>
+                    <option value="" disabled selected>Select option</option>
+                    <option value="service">Pelayanan</option>
+                    <option value="price">Harga</option>
+                    <option value="quality">Kualitas</option>
+                </select>
+                
+                <button type="submit">SEND</button>
+            </form>
+        </div>
+
+        <script src="js/script.js"></script>
+    </main>
+    <footer class="footer">
+        <div class="our-package">
+            <h2>Our Package</h2>
+            <p>Explore our exciting packages and discover the best deals on high-quality groceries.</p>
+        </div>
+    </footer>
+</body>
+</html>
